@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>This is a sample HTML page</p>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>About This Page</h2>
+            <p>This is a simple HTML template with CSS styling and JavaScript interactivity. It serves as a starting point for building web applications.</p>
+            
+            <h3>Features</h3>
+            <ul>
+                <li>Responsive Design</li>
+                <li>Clean CSS Styling</li>
+                <li>Interactive JavaScript</li>
+                <li>Professional Layout</li>
+            </ul>
+
+            <h3>Try It Out</h3>
+            <label for="username">Enter your name:</label>
+            <input type="text" id="username" placeholder="Type your name here">
+            <button onclick="greetUser()">Click Me!</button>
+            <p id="greeting"></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sample Website. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function greetUser() {
+            const username = document.getElementById('username').value;
+            const greetingElement = document.getElementById('greeting');
+            
+            if (username.trim() === '') {
+                greetingElement.textContent = 'Please enter your name!';
+                greetingElement.style.color = 'red';
+            } else {
+                greetingElement.textContent = `Hello, ${username}! Welcome to the page.`;
+                greetingElement.style.color = 'green';
+            }
+        }
+    </script>
+</body>
+</html>
