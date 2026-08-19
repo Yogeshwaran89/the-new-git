@@ -82,3 +82,11 @@ This is a sample project. Feel free to use and modify as needed.
 ## Author
 
 Created as a sample template for learning web development and Python basics.
+
+i am the danger 
+find the simple interest and compound intersest
+the jhon snow
+robb
+ned
+third eye man
+kingslayer
