@@ -9,6 +9,7 @@ A simple web and Python project demonstrating HTML, CSS, JavaScript, and Python 
 ├── index.html      # Main HTML file
 ├── style.css       # CSS styling
 ├── code.py         # Python script
+├── code.js         # JavaScript sample
 └── readme.md       # This file
 ```
 
@@ -35,6 +36,12 @@ Python script demonstrating:
 - User input handling
 - Loop iterations
 - Main function pattern
+
+### code.js
+JavaScript sample demonstrating:
+- A greeting function with input validation
+- Array mapping to double numbers
+- Console output
 
 ## Getting Started
 
